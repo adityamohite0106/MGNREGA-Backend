@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 // ---------- CORS ----------
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://127.0.0.1:5173'], // Vite dev server
+    origin: ['http://localhost:5173', 'http://127.0.0.1:5173' , 'https://mgnrega-frontend-nine.vercel.app'], // Vite dev server
     credentials: true,
   })
 );
@@ -35,3 +35,5 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+
+// Aditya Mohite adityamohite4973@gmail.com 
